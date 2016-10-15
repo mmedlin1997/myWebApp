@@ -1,0 +1,1 @@
+function myFunct(){var e="Hello Mark";return e}var express=require("express"),router=express.Router();router.get("/",function(e,r,t){r.render("index",{title:"Express"})}),module.exports=router;var express=require("express"),router=express.Router();router.get("/",function(e,r,t){r.send("respond with a resource")}),module.exports=router;
